@@ -10,8 +10,9 @@ class Triangle
          raise TriangleError
        elsif  @a + @b <= @c || @a + @c <= @b || @b + @c <= @a
          raise TriangleError
+       end
 
-   end
+       
 
 
 
