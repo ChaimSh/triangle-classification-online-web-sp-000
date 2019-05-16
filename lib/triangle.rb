@@ -6,8 +6,16 @@ class Triangle
   end
 
    def kind
-
+       if @a == 0 || @b == 0 || @c == 0
+         raise
+           TriangleError 
    end
+ end
+
+class TriangleError < StandardError
+
+
+end
 
 
 end
