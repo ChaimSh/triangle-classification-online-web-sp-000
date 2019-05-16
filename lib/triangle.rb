@@ -13,5 +13,5 @@ class Triangle
     @scalene
    end
 
-  
+
 end
